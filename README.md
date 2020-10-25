@@ -1,5 +1,5 @@
 # seubarriga
-US2 – Login com sucesso
+US2 – Login com sucesso /n
 Dado que o usuario esteja na tela de login
 Quando digitar email e senha validos
 E clicar no botao entrar
