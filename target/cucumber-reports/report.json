@@ -1,0 +1,833 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 10284611000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuário esteja logado",
+            "match": {
+              "location": "LogoutSteps.queOUsuárioEstejaLogado()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 914499900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "navegue ate a pagina de criar conta",
+            "match": {
+              "location": "ContaSteps.navegueAteAPaginaDeCriarConta()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Criar conta com sucesso",
+        "description": "",
+        "id": "nova-conta;criar-conta-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 55963200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "preencher o campo nome",
+            "match": {
+              "location": "ContaSteps.preencherOCampoNome()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 462988600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "clicar em salvar",
+            "match": {
+              "location": "ContaSteps.clicarEmSalvar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 643946400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o sistema emite uma mensagem de sucesso",
+            "match": {
+              "location": "ContaSteps.oSistemaEmiteUmaMensagemDeSucesso()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@criarConta"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 6625422300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuário esteja logado",
+            "match": {
+              "location": "LogoutSteps.queOUsuárioEstejaLogado()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1045264200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "navegue ate a pagina de criar conta",
+            "match": {
+              "location": "ContaSteps.navegueAteAPaginaDeCriarConta()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Criar conta com nome ja cadastrado",
+        "description": "",
+        "id": "nova-conta;criar-conta-com-nome-ja-cadastrado",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 50377000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "preencha o campo nome com uma conta ja existente",
+            "match": {
+              "location": "ContaSteps.preenchaOCampoNomeComUmaContaJaExistente()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 432416800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "clicar em salvar",
+            "match": {
+              "location": "ContaSteps.clicarEmSalvar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 635926600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "o sistema emite uma mensagem de erro",
+            "match": {
+              "location": "ContaSteps.oSistemaEmiteUmaMensagemDeErro()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@criarContaNomeJaCadastrado"
+          }
+        ]
+      }
+    ],
+    "name": "Nova Conta",
+    "description": "",
+    "id": "nova-conta",
+    "keyword": "Funcionalidade",
+    "uri": "conta.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@Conta"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 5911943600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuario esteja na tela de login",
+            "match": {
+              "location": "LoginSteps.queOUsuarioEstejaNaTelaDeLogin()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Login com sucesso",
+        "description": "",
+        "id": "login;login-com-sucesso;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 113368400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "digitar \"testejoao12@gmail.com\" e \"xxx123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testejoao12@gmail.com",
+                  "offset": 9
+                },
+                {
+                  "val": "xxx123",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginSteps.digitarE(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 613889300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clicar no botao entrar",
+            "match": {
+              "location": "LoginSteps.clicarNoBotaoEntrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 5632982000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o sistema ira para a tela inicial",
+            "match": {
+              "location": "LoginSteps.oSistemaIraParaATelaInicial()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@login"
+          },
+          {
+            "line": 8,
+            "name": "@loginSucesso"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 6067099200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuario esteja na tela de login",
+            "match": {
+              "location": "LoginSteps.queOUsuarioEstejaNaTelaDeLogin()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "cadastro de novo usuario",
+        "description": "",
+        "id": "login;cadastro-de-novo-usuario;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 395704900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "clicar na opção Novo Usuário?",
+            "match": {
+              "location": "LoginSteps.clicarNaOpçãoNovoUsuário()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 803073900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "preencher \"joao\" \"testejoao1234@gmail.com\" \"xxx123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "joao",
+                  "offset": 11
+                },
+                {
+                  "val": "testejoao1234@gmail.com",
+                  "offset": 18
+                },
+                {
+                  "val": "xxx123",
+                  "offset": 44
+                }
+              ],
+              "location": "LoginSteps.preencher(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 631016600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "o sistema emitira uma mensagem de sucesso",
+            "match": {
+              "location": "LoginSteps.oSistemaEmitiraUmaMensagemDeSucesso()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@login"
+          },
+          {
+            "line": 19,
+            "name": "@novoUsuario"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Funcionalidade",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@login"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Login com",
+        "description": "",
+        "id": "logout;login-com",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6917642600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuário esteja logado",
+            "match": {
+              "location": "LogoutSteps.queOUsuárioEstejaLogado()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 337939800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicar no botão Sair",
+            "match": {
+              "location": "LogoutSteps.clicarNoBotãoSair()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 603266600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "o sistema deverá retornar para a tela de login",
+            "match": {
+              "location": "LogoutSteps.oSistemaDeveráRetornarParaATelaDeLogin()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "logout",
+    "description": "",
+    "id": "logout",
+    "keyword": "Funcionalidade",
+    "uri": "logout.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@logout"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 6606783000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuário esteja logado",
+            "match": {
+              "location": "LogoutSteps.queOUsuárioEstejaLogado()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 334918000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "navegue ate a pagina de criar movimentacao",
+            "match": {
+              "location": "MovimentacaoSteps.navegueAteAPaginaDeCriarMovimentacao()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Criar movimentacao com sucesso",
+        "description": "",
+        "id": "nova-conta;criar-movimentacao-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 338614800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "preencher os dados da movimentacao",
+            "match": {
+              "location": "MovimentacaoSteps.preencherOsDadosDaMovimentacao()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 384695400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "clicar em salvar movimentacao",
+            "match": {
+              "location": "MovimentacaoSteps.clicarEmSalvarMovimentacao()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 614082500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o sistema emitira mensagem de sucesso",
+            "match": {
+              "location": "MovimentacaoSteps.oSistemaEmitiraMensagemDeSucesso()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@criarMovimentacao"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 6874380100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuário esteja logado",
+            "match": {
+              "location": "LogoutSteps.queOUsuárioEstejaLogado()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 743400000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "navegue ate a pagina de criar movimentacao",
+            "match": {
+              "location": "MovimentacaoSteps.navegueAteAPaginaDeCriarMovimentacao()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Criar movimentacao campos obrigatorios nao preenchidos",
+        "description": "",
+        "id": "nova-conta;criar-movimentacao-campos-obrigatorios-nao-preenchidos",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 296803000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "não preencher todos campos obrigatorios",
+            "match": {
+              "location": "MovimentacaoSteps.nãoPreencherTodosCamposObrigatorios()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 395849500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "clicar em salvar movimentacao",
+            "match": {
+              "location": "MovimentacaoSteps.clicarEmSalvarMovimentacao()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 612342600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "o sistema emitira mensagem de erro",
+            "match": {
+              "location": "MovimentacaoSteps.oSistemaEmitiraMensagemDeErro()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@criarMovimentacaoCamposObrigatoriosNaoPreenchidos"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 6736663200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuário esteja logado",
+            "match": {
+              "location": "LogoutSteps.queOUsuárioEstejaLogado()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 451828400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "navegue ate a pagina de criar movimentacao",
+            "match": {
+              "location": "MovimentacaoSteps.navegueAteAPaginaDeCriarMovimentacao()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Criar movimentacao data invalida",
+        "description": "",
+        "id": "nova-conta;criar-movimentacao-data-invalida",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 366735500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "preencha os campos de data diferente do formato DD/MM/AAAA",
+            "match": {
+              "location": "MovimentacaoSteps.preenchaOsCamposDeDataDiferenteDoFormatoDDMMAAAA()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 388925800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "clicar em salvar movimentacao",
+            "match": {
+              "location": "MovimentacaoSteps.clicarEmSalvarMovimentacao()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1465607200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "o sistema emite uma mensagem de data invalida",
+            "match": {
+              "location": "MovimentacaoSteps.oSistemaEmiteUmaMensagemDeDataInvalida()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@criarMovimentacaoDataInvalida"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 6519315200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuário esteja logado",
+            "match": {
+              "location": "LogoutSteps.queOUsuárioEstejaLogado()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 367148300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "navegue ate a pagina de criar movimentacao",
+            "match": {
+              "location": "MovimentacaoSteps.navegueAteAPaginaDeCriarMovimentacao()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Criar movimentacao data futura",
+        "description": "",
+        "id": "nova-conta;criar-movimentacao-data-futura",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 429192200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "preencha os campos de data com data futura",
+            "match": {
+              "location": "MovimentacaoSteps.preenchaOsCamposDeDataComDataFutura()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 620701900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "clicar em salvar movimentacao",
+            "match": {
+              "location": "MovimentacaoSteps.clicarEmSalvarMovimentacao()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 669114700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "o sistema emite uma mensagem de data maior que a data atual",
+            "match": {
+              "location": "MovimentacaoSteps.oSistemaEmiteUmaMensagemDeDataMaiorQueADataAtual()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@criarMovimentacaoDataFutura"
+          }
+        ]
+      }
+    ],
+    "name": "Nova Conta",
+    "description": "",
+    "id": "nova-conta",
+    "keyword": "Funcionalidade",
+    "uri": "movimentacao.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@movimentacao"
+      }
+    ]
+  }
+]

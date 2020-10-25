@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="84.396444">
+<testcase classname="Nova Conta" name="Criar conta com sucesso" time="12.362009">
+<system-out><![CDATA[Dado que o usuário esteja logado............................................passed
+E navegue ate a pagina de criar conta.......................................passed
+E preencher o campo nome....................................................passed
+E clicar em salvar..........................................................passed
+Entao o sistema emite uma mensagem de sucesso...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Nova Conta" name="Criar conta com nome ja cadastrado" time="8.789407">
+<system-out><![CDATA[Dado que o usuário esteja logado............................................passed
+E navegue ate a pagina de criar conta.......................................passed
+E preencha o campo nome com uma conta ja existente..........................passed
+E clicar em salvar..........................................................passed
+Entao o sistema emite uma mensagem de erro..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login com sucesso" time="12.272183">
+<system-out><![CDATA[Dado que o usuario esteja na tela de login..................................passed
+Quando digitar "testejoao12@gmail.com" e "xxx123"...........................passed
+E clicar no botao entrar....................................................passed
+Entao o sistema ira para a tela inicial.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="cadastro de novo usuario" time="7.896895">
+<system-out><![CDATA[Dado que o usuario esteja na tela de login..................................passed
+Quando clicar na opção Novo Usuário?........................................passed
+E preencher "joao" "testejoao1234@gmail.com" "xxx123".......................passed
+Entao o sistema emitira uma mensagem de sucesso.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="logout" name="Login com" time="7.858849">
+<system-out><![CDATA[Dado que o usuário esteja logado............................................passed
+Quando clicar no botão Sair.................................................passed
+Então o sistema deverá retornar para a tela de login........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Nova Conta" name="Criar movimentacao com sucesso" time="8.279094">
+<system-out><![CDATA[Dado que o usuário esteja logado............................................passed
+E navegue ate a pagina de criar movimentacao................................passed
+E preencher os dados da movimentacao........................................passed
+E clicar em salvar movimentacao.............................................passed
+Entao o sistema emitira mensagem de sucesso.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Nova Conta" name="Criar movimentacao campos obrigatorios nao preenchidos" time="8.922775">
+<system-out><![CDATA[Dado que o usuário esteja logado............................................passed
+E navegue ate a pagina de criar movimentacao................................passed
+E não preencher todos campos obrigatorios...................................passed
+E clicar em salvar movimentacao.............................................passed
+Entao o sistema emitira mensagem de erro....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Nova Conta" name="Criar movimentacao data invalida" time="9.40976">
+<system-out><![CDATA[Dado que o usuário esteja logado............................................passed
+E navegue ate a pagina de criar movimentacao................................passed
+E preencha os campos de data diferente do formato DD/MM/AAAA................passed
+E clicar em salvar movimentacao.............................................passed
+Entao o sistema emite uma mensagem de data invalida.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Nova Conta" name="Criar movimentacao data futura" time="8.605472">
+<system-out><![CDATA[Dado que o usuário esteja logado............................................passed
+E navegue ate a pagina de criar movimentacao................................passed
+E preencha os campos de data com data futura................................passed
+E clicar em salvar movimentacao.............................................passed
+Entao o sistema emite uma mensagem de data maior que a data atual...........passed
+]]></system-out>
+</testcase>
+</testsuite>
