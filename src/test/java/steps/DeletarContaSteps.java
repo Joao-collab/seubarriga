@@ -4,7 +4,6 @@ import core.Constantes;
 import cucumber.api.java.pt.Dado;
 import org.junit.Assert;
 import pages.ContaPage;
-import pages.LoginPage;
 import pages.TelaInicialPage;
 
 public class DeletarContaSteps {

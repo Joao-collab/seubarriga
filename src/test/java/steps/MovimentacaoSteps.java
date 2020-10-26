@@ -3,10 +3,7 @@ package steps;
 import core.Constantes;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Entao;
-import org.apache.xmlbeans.GDate;
-import org.exolab.castor.types.DateTime;
 import org.junit.Assert;
-import pages.LoginPage;
 import pages.MovimentacaoPage;
 import pages.TelaInicialPage;
 

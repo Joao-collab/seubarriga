@@ -6,7 +6,6 @@ import cucumber.api.java.pt.Entao;
 import cucumber.api.java.pt.Quando;
 import org.junit.Assert;
 import pages.ContaPage;
-import pages.LoginPage;
 import pages.TelaInicialPage;
 import util.Generator;
 

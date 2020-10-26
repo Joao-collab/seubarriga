@@ -4,8 +4,6 @@ import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Então;
 import cucumber.api.java.pt.Quando;
 import org.junit.Assert;
-import org.junit.Rule;
-import org.junit.rules.TestName;
 import pages.LoginPage;
 import pages.TelaInicialPage;
 

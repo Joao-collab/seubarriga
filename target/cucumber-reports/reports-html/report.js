@@ -39,14 +39,14 @@ formatter.match({
   "location": "LogoutSteps.queOUsuárioEstejaLogado()"
 });
 formatter.result({
-  "duration": 7602081800,
+  "duration": 9833605000,
   "status": "passed"
 });
 formatter.match({
   "location": "ContaSteps.navegueAteAPaginaDeCriarConta()"
 });
 formatter.result({
-  "duration": 717673800,
+  "duration": 207861800,
   "status": "passed"
 });
 formatter.scenario({
@@ -82,21 +82,21 @@ formatter.match({
   "location": "ContaSteps.preencherOCampoNome()"
 });
 formatter.result({
-  "duration": 51284200,
+  "duration": 67581200,
   "status": "passed"
 });
 formatter.match({
   "location": "ContaSteps.clicarEmSalvar()"
 });
 formatter.result({
-  "duration": 359426100,
+  "duration": 492622300,
   "status": "passed"
 });
 formatter.match({
   "location": "ContaSteps.oSistemaEmiteUmaMensagemDeSucesso()"
 });
 formatter.result({
-  "duration": 636312300,
+  "duration": 660019100,
   "status": "passed"
 });
 formatter.background({
@@ -120,14 +120,14 @@ formatter.match({
   "location": "LogoutSteps.queOUsuárioEstejaLogado()"
 });
 formatter.result({
-  "duration": 6537479200,
+  "duration": 6354926900,
   "status": "passed"
 });
 formatter.match({
   "location": "ContaSteps.navegueAteAPaginaDeCriarConta()"
 });
 formatter.result({
-  "duration": 2370218000,
+  "duration": 223423100,
   "status": "passed"
 });
 formatter.scenario({
@@ -163,21 +163,21 @@ formatter.match({
   "location": "ContaSteps.preenchaOCampoNomeComUmaContaJaExistente()"
 });
 formatter.result({
-  "duration": 48136100,
+  "duration": 76548700,
   "status": "passed"
 });
 formatter.match({
   "location": "ContaSteps.clicarEmSalvar()"
 });
 formatter.result({
-  "duration": 310391300,
+  "duration": 280350200,
   "status": "passed"
 });
 formatter.match({
   "location": "ContaSteps.oSistemaEmiteUmaMensagemDeErro()"
 });
 formatter.result({
-  "duration": 627393800,
+  "duration": 706423300,
   "status": "passed"
 });
 formatter.uri("login.feature");
@@ -270,7 +270,7 @@ formatter.match({
   "location": "LoginSteps.queOUsuarioEstejaNaTelaDeLogin()"
 });
 formatter.result({
-  "duration": 6158012200,
+  "duration": 5694518800,
   "status": "passed"
 });
 formatter.scenario({
@@ -324,21 +324,21 @@ formatter.match({
   "location": "LoginSteps.digitarE(String,String)"
 });
 formatter.result({
-  "duration": 101556900,
+  "duration": 119531100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.clicarNoBotaoEntrar()"
 });
 formatter.result({
-  "duration": 628256300,
+  "duration": 513906000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.oSistemaIraParaATelaInicial()"
 });
 formatter.result({
-  "duration": 5630447200,
+  "duration": 5662434200,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -413,7 +413,7 @@ formatter.match({
   "location": "LoginSteps.queOUsuarioEstejaNaTelaDeLogin()"
 });
 formatter.result({
-  "duration": 5946893400,
+  "duration": 5654769800,
   "status": "passed"
 });
 formatter.scenario({
@@ -458,7 +458,7 @@ formatter.match({
   "location": "LoginSteps.clicarNaOpçãoNovoUsuário()"
 });
 formatter.result({
-  "duration": 722307300,
+  "duration": 169753800,
   "status": "passed"
 });
 formatter.match({
@@ -479,14 +479,14 @@ formatter.match({
   "location": "LoginSteps.preencher(String,String,String)"
 });
 formatter.result({
-  "duration": 726328000,
+  "duration": 675537600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.oSistemaEmitiraUmaMensagemDeSucesso()"
 });
 formatter.result({
-  "duration": 622053200,
+  "duration": 656132500,
   "status": "passed"
 });
 formatter.uri("logout.feature");
@@ -536,21 +536,21 @@ formatter.match({
   "location": "LogoutSteps.queOUsuárioEstejaLogado()"
 });
 formatter.result({
-  "duration": 6868397800,
+  "duration": 6203989500,
   "status": "passed"
 });
 formatter.match({
   "location": "LogoutSteps.clicarNoBotãoSair()"
 });
 formatter.result({
-  "duration": 366238400,
+  "duration": 168459300,
   "status": "passed"
 });
 formatter.match({
   "location": "LogoutSteps.oSistemaDeveráRetornarParaATelaDeLogin()"
 });
 formatter.result({
-  "duration": 1030951200,
+  "duration": 1128798600,
   "status": "passed"
 });
 formatter.uri("movimentacao.feature");
@@ -594,14 +594,14 @@ formatter.match({
   "location": "LogoutSteps.queOUsuárioEstejaLogado()"
 });
 formatter.result({
-  "duration": 7956770600,
+  "duration": 6173787800,
   "status": "passed"
 });
 formatter.match({
   "location": "MovimentacaoSteps.navegueAteAPaginaDeCriarMovimentacao()"
 });
 formatter.result({
-  "duration": 358284900,
+  "duration": 253427600,
   "status": "passed"
 });
 formatter.scenario({
@@ -637,21 +637,21 @@ formatter.match({
   "location": "MovimentacaoSteps.preencherOsDadosDaMovimentacao()"
 });
 formatter.result({
-  "duration": 337709400,
+  "duration": 371834700,
   "status": "passed"
 });
 formatter.match({
   "location": "MovimentacaoSteps.clicarEmSalvarMovimentacao()"
 });
 formatter.result({
-  "duration": 581025500,
+  "duration": 288728100,
   "status": "passed"
 });
 formatter.match({
   "location": "MovimentacaoSteps.oSistemaEmitiraMensagemDeSucesso()"
 });
 formatter.result({
-  "duration": 608819900,
+  "duration": 632043600,
   "status": "passed"
 });
 formatter.background({
@@ -675,14 +675,14 @@ formatter.match({
   "location": "LogoutSteps.queOUsuárioEstejaLogado()"
 });
 formatter.result({
-  "duration": 8326218400,
+  "duration": 6200995800,
   "status": "passed"
 });
 formatter.match({
   "location": "MovimentacaoSteps.navegueAteAPaginaDeCriarMovimentacao()"
 });
 formatter.result({
-  "duration": 425976900,
+  "duration": 179158600,
   "status": "passed"
 });
 formatter.scenario({
@@ -718,21 +718,21 @@ formatter.match({
   "location": "MovimentacaoSteps.nãoPreencherTodosCamposObrigatorios()"
 });
 formatter.result({
-  "duration": 296148800,
+  "duration": 337280400,
   "status": "passed"
 });
 formatter.match({
   "location": "MovimentacaoSteps.clicarEmSalvarMovimentacao()"
 });
 formatter.result({
-  "duration": 342532900,
+  "duration": 319883200,
   "status": "passed"
 });
 formatter.match({
   "location": "MovimentacaoSteps.oSistemaEmitiraMensagemDeErro()"
 });
 formatter.result({
-  "duration": 622280500,
+  "duration": 625616800,
   "status": "passed"
 });
 formatter.background({
@@ -756,14 +756,14 @@ formatter.match({
   "location": "LogoutSteps.queOUsuárioEstejaLogado()"
 });
 formatter.result({
-  "duration": 7567218500,
+  "duration": 6153416500,
   "status": "passed"
 });
 formatter.match({
   "location": "MovimentacaoSteps.navegueAteAPaginaDeCriarMovimentacao()"
 });
 formatter.result({
-  "duration": 481620300,
+  "duration": 174452800,
   "status": "passed"
 });
 formatter.scenario({
@@ -799,21 +799,21 @@ formatter.match({
   "location": "MovimentacaoSteps.preenchaOsCamposDeDataDiferenteDoFormatoDDMMAAAA()"
 });
 formatter.result({
-  "duration": 356926700,
+  "duration": 407298200,
   "status": "passed"
 });
 formatter.match({
   "location": "MovimentacaoSteps.clicarEmSalvarMovimentacao()"
 });
 formatter.result({
-  "duration": 369971000,
+  "duration": 269744900,
   "status": "passed"
 });
 formatter.match({
   "location": "MovimentacaoSteps.oSistemaEmiteUmaMensagemDeDataInvalida()"
 });
 formatter.result({
-  "duration": 1541646900,
+  "duration": 1469572500,
   "status": "passed"
 });
 formatter.background({
@@ -837,14 +837,14 @@ formatter.match({
   "location": "LogoutSteps.queOUsuárioEstejaLogado()"
 });
 formatter.result({
-  "duration": 6591429400,
+  "duration": 6318061100,
   "status": "passed"
 });
 formatter.match({
   "location": "MovimentacaoSteps.navegueAteAPaginaDeCriarMovimentacao()"
 });
 formatter.result({
-  "duration": 515866500,
+  "duration": 167889900,
   "status": "passed"
 });
 formatter.scenario({
@@ -880,21 +880,21 @@ formatter.match({
   "location": "MovimentacaoSteps.preenchaOsCamposDeDataComDataFutura()"
 });
 formatter.result({
-  "duration": 337731200,
+  "duration": 370467000,
   "status": "passed"
 });
 formatter.match({
   "location": "MovimentacaoSteps.clicarEmSalvarMovimentacao()"
 });
 formatter.result({
-  "duration": 390851100,
+  "duration": 283500700,
   "status": "passed"
 });
 formatter.match({
   "location": "MovimentacaoSteps.oSistemaEmiteUmaMensagemDeDataMaiorQueADataAtual()"
 });
 formatter.result({
-  "duration": 608163200,
+  "duration": 625015300,
   "status": "passed"
 });
 });
